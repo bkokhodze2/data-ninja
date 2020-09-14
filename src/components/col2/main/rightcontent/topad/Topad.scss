@@ -1,0 +1,55 @@
+.top_ad {
+  width: 100%;
+  margin-top: 1.5rem;
+  .top_ad_head {
+    margin-top: 0.625rem;
+    margin-bottom: 3.3rem;
+    text-transform: capitalize;
+    p {
+    }
+  }
+  .top_ad_content {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0.625rem;
+    .top_ad_content_header {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      align-items: center;
+      
+      .filter {
+        cursor: pointer;
+        width: 9rem;
+        height: 2.3rem;
+        border-radius: 0.4rem;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        p {
+          cursor: pointer;
+        }
+      }
+      p {
+        text-transform: capitalize;
+        cursor: pointer;
+      }
+    }
+    .ad_line {
+      border-bottom: 1px solid black;
+    }
+  }
+  .top_ad_content_body {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+    p {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+  }
+}
