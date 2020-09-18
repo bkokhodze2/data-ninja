@@ -12,9 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-  
     "start": "react-app-rewired start",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +36,4 @@
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6"
   }
-  
 }

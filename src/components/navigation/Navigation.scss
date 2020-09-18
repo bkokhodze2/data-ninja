@@ -1,15 +1,21 @@
 .navigation {
   background-color: #151a22;
-  width: 13rem;
+  width: 13.4375rem;
   .navigation_picture {
-    height: 10rem;
+    height: 4.6875rem;
     display: flex;
     align-self: center;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #a1a1a1;
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
     img {
-      width: 50%;
+      width: 30%;
       height: auto;
     }
   }
@@ -21,12 +27,9 @@
       align-self: center;
       align-items: center;
       // justify-content: center;
-      border-radius: 0.5rem;
-      height: 2rem;
+      height:2.375rem;
       padding-left: 2.5rem;
-      a {
-        color: white;
-      }
+      
     }
   }
 }

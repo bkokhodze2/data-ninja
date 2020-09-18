@@ -5,11 +5,14 @@
   div{
     padding-left: 1rem;
     a{
+      color: #c3ced5;
+    }
+    .nav_href{
       // padding-left: 1rem;
       text-transform: capitalize;
-      color: #c3ced5;
+     font-size: 14px;
       text-decoration: none;
-      margin-left: 1rem;
+      margin-left: 0.8125rem;
     }
   }
   

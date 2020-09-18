@@ -1,5 +1,5 @@
 import React from "react";
-
+import ninja from "../../../../../../public/images/ninja.png"
 // import "Navigation.scss";
 
 function Yourstats() {
@@ -8,7 +8,7 @@ function Yourstats() {
         <div className="your_stats_head">your stats</div>
         <div className="your_stats_content">
           <div className="content_img">
-            <img src="icons/circle.png" alt="" />
+          <img src={ninja} alt="" />
           </div>
           <div className="content_div">
             <p>white belt</p>

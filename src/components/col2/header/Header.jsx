@@ -1,5 +1,11 @@
 import React from "react";
-// import coca from "../../../../public/cocacola.jpg";
+import coca from "../../../../public/images/cocacola.jpg";
+import calendar from "../../../../public/images/calendar.png";
+import fb from "../../../../public/images/fb.png";
+import google from "../../../../public/images/google.png";
+import filter from "../../../../public/images/filter.png";
+import trash from "../../../../public/images/trash.png";
+import user from "../../../../public/images/user.png";
 
 function Header() {
   return (
@@ -7,7 +13,7 @@ function Header() {
       <div className="header_top">
         <div className="acc">
           <div className="acc_logo">
-            <img src="{coca}" alt="" />
+            <img src={coca} alt="" />
           </div>
           <div className="acc_select">
             <p>select account</p>
@@ -29,32 +35,35 @@ function Header() {
           <div className="right_container_search">
             <i className="fas fa-search"></i>
           </div>
-          <div className="right_container_acc">d</div>
+          <div className="right_container_acc">
+            <img src={user} alt=""/>
+          </div>
         </div>
       </div>
       <div className="line"></div>
       <div className="header_bottom">
         <div className="header_bottom_left">
           <div className="left_date">
-            <div></div>
+            <div><img src={calendar} alt="" /></div>
             <p>11 dec - 15dec</p>
           </div>
 
           <div className="left_fb">
-            <div></div>
+            <div><img src={fb} alt="" /></div>
             <a href="https://www.facebook.com">faceboock</a>
           </div>
           <div className="left_google">
-            <div></div>
+            <div><img src={google} alt="" /></div>
             <a href="https://www.google.com">google</a>
           </div>
         </div>
         <div className="header_bottom_right">
           <div className="right_filter">
+            <img src={filter} alt=""/>
             <p>filter</p>
           </div>
           <div className="right_delete">
-            {/* <i className="fas fa-trash-alt"></i> */}
+            <img src={trash} alt=""/>
           </div>
         </div>
       </div>

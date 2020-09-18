@@ -1,13 +1,15 @@
 import React from "react";
 import Navlink from "./navlink/Navlink.jsx";
 import "./navlink/Navlink.scss";
+import ninja from "../../../public/images/ninja.png";
 // import "Navigation.scss";
 
 function Navigation() {
   return (
     <nav className="navigation">
       <div className="navigation_picture">
-        <img src="icons/circle.png" alt="" />
+        <img src={ninja} alt="" />
+        <a>dataninja</a>
       </div>
       <div className="nav_list">
         <Navlink type="active" name="dashboard"/>
