@@ -1,7 +1,6 @@
 .total_data {
   width: 100%;
   margin-top: 2.0625rem;
-
   .total_data_head {
     text-transform: capitalize;
     display: flex;
@@ -22,7 +21,6 @@
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 
     .total_data_content_header {
-      // margin-top: 1rem;
       padding: 1rem 1rem 0rem 1rem;
       p {
         &:first-of-type {

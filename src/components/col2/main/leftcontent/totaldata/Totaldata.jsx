@@ -33,7 +33,7 @@ function Totaldata() {
               <p>200,000</p>
             </div>
           </div>
-
+          
           <div className="content_body_item">
             <div className="body_item_dot dot_green"></div>
             <div className="body_item_total">

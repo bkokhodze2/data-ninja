@@ -12,7 +12,6 @@ header {
       display: flex;
       align-self: center;
       align-items: center;
-
       .acc_logo {
         width: 2.5rem;
         height: 2.5rem;
@@ -24,14 +23,12 @@ header {
         border: solid 1px #d8d8d8;
         margin-right: 0.8125rem;
         img {
-          // background-image: url(/public/images/cocacola.jpg);
           width: 90%;
           height: auto;
         }
       }
       .acc_select {
-        p {
-          // font-family: firago;
+        p {  // font-family: firago;
           font-size: 10px;
           color: #727272;
           margin-bottom: 3px;
@@ -103,26 +100,14 @@ header {
         font-size: 12px;
         align-items: center;
         margin-left: 0.4rem;
-
         div {
           height: 1.625rem;
           width: 1.625rem;
           background-color: rgb(255, 255, 255);
-          border: 1px solid gray;
-          // border-radius: 1.375rem;
+          border: 1px solid gray;// border-radius: 1.375rem;
           border-radius: 50%;
           display: flex;
           justify-content: center;
-          i {
-            // width: 1rem;
-            // height: 1rem;
-            // display: flex;
-            // align-self: center;
-            // align-items: center;
-            // justify-content: center;
-            // background-color: rgb(253, 253, 255);
-            // color: rgb(17, 0, 255);
-          }
         }
         &:last-of-type {
           margin-right: 0rem;
@@ -132,7 +117,6 @@ header {
         width: 9.4375rem;
         font-size: 12px;
         font-weight: 500;
-
         p {
           margin-left: 1rem;
           color: #2c435a;
@@ -142,7 +126,6 @@ header {
         width: 7.375rem;
         font-size: 12px;
         font-weight: 500;
-
         a {
           margin-left: 1rem;
           color: #2c435a;
@@ -170,7 +153,6 @@ header {
       div {
         margin-right: 0.0625rem;
         height: 3rem;
-
         background-color: rgb(171, 171, 207);
         border-radius: 1.5rem;
         padding: 0 1.5rem;
