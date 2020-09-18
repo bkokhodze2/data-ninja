@@ -12,7 +12,9 @@ function Bodyitem(props) {
         >
           <p>{props.percent}</p>
         </div>
-        <div className="description">{props.desctop}</div>
+        <div className="description">
+         {props.desctop}
+        </div>
       </div>
       <div className="soc_cout_box">
         <p>{props.soc === "google" ? props.soc : "facebook"}</p>

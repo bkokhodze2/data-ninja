@@ -28,7 +28,7 @@ function Totaldata() {
 
           <div className="content_body_item">
             <div className="body_item_dot dot_blue"></div>
-            <div className="body_item_unique">
+            <div className="body_item_total">
               <p>unique views</p>
               <p>200,000</p>
             </div>
@@ -36,7 +36,7 @@ function Totaldata() {
 
           <div className="content_body_item">
             <div className="body_item_dot dot_green"></div>
-            <div className="body_item_views">
+            <div className="body_item_total">
               <p>views</p>
               <p>200,000</p>
             </div>

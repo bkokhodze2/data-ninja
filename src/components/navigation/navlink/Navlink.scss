@@ -1,10 +1,14 @@
 
   .active {
-    background-color: rgb(255, 72, 0);
+    background-color: #ff4e00;
   }
   div{
+    padding-left: 1rem;
     a{
+      // padding-left: 1rem;
       text-transform: capitalize;
+      color: #c3ced5;
+      text-decoration: none;
       margin-left: 1rem;
     }
   }

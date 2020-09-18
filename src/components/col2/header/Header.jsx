@@ -1,6 +1,5 @@
 import React from "react";
-
-// import "Navigation.scss";
+// import coca from "../../../../public/cocacola.jpg";
 
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
       <div className="header_top">
         <div className="acc">
           <div className="acc_logo">
-            <img src="icons/cocacola.png" alt="" />
+            <img src="{coca}" alt="" />
           </div>
           <div className="acc_select">
             <p>select account</p>
@@ -37,22 +36,16 @@ function Header() {
       <div className="header_bottom">
         <div className="header_bottom_left">
           <div className="left_date">
-            <div>
-              <i className="fas fa-calendar-alt"></i>
-            </div>
+            <div></div>
             <p>11 dec - 15dec</p>
           </div>
 
           <div className="left_fb">
-            <div>
-              <i className="fab fa-facebook"></i>
-            </div>
+            <div></div>
             <a href="https://www.facebook.com">faceboock</a>
           </div>
           <div className="left_google">
-            <div>
-              <i className="fab fa-google"></i>
-            </div>
+            <div></div>
             <a href="https://www.google.com">google</a>
           </div>
         </div>
@@ -61,7 +54,7 @@ function Header() {
             <p>filter</p>
           </div>
           <div className="right_delete">
-            <i className="fas fa-trash-alt"></i>
+            {/* <i className="fas fa-trash-alt"></i> */}
           </div>
         </div>
       </div>

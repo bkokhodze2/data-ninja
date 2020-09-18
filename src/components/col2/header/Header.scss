@@ -1,11 +1,12 @@
 header {
   background: rgb(255, 255, 255);
-  height: 10rem;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  height: 9.25rem;
   .header_top {
     height: 50%;
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 2.25rem;
     .acc {
       height: 100%;
       display: flex;
@@ -13,23 +14,32 @@ header {
       align-items: center;
 
       .acc_logo {
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        background-color: #a0aeb4;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 1.375rem;
         display: flex;
         align-self: center;
         align-items: center;
         justify-content: center;
+        border: solid 1px #d8d8d8;
+        margin-right: 0.8125rem;
         img {
+          // background-image: url(/public/images/cocacola.jpg);
           width: 90%;
           height: auto;
         }
       }
       .acc_select {
         p {
+          // font-family: firago;
+          font-size: 10px;
+          color: #727272;
+          margin-bottom: 3px;
         }
         select {
+          font-family: FiraGO;
+          font-size: 12px;
+          color: #000000;
           option {
           }
         }
@@ -46,13 +56,22 @@ header {
         align-self: center;
         align-items: center;
         justify-content: center;
-        border-left: 1px solid black;
+        border-left: 1px solid #bebebe;
       }
       .right_container_website {
-        width: 10rem;
+        width: 8.125rem;
+
+        a {
+          font-size: 14px;
+          font-weight: bold;
+          color: #2c435a;
+        }
       }
       .right_container_ad {
         width: 10rem;
+        width: 61px;
+        font-size: 14px;
+        color: #ff4e00;
       }
       .right_container_search {
         width: 5rem;
@@ -64,64 +83,82 @@ header {
   }
   .line {
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d9dbdd;
   }
   .header_bottom {
     height: 50%;
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 2.25rem;
     .header_bottom_left {
       display: flex;
       div {
-        margin-right: 0.0625rem;
-        height: 3rem;
-        background-color: rgb(171, 171, 207);
+        margin-right: 0.625rem;
+        height: 2.25rem;
+        background-color: #eceeef;
         border-radius: 1.5rem;
-        display: flex;
         align-self: center;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 12px;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 0.75rem;
-        padding-right: 1rem;
+        padding-left: 0.4rem;
+
         div {
-          height: 2rem;
-          width: 2rem;
+          height: 1.625rem;
+          width: 1.625rem;
           background-color: rgb(255, 255, 255);
           border: 1px solid gray;
+          // border-radius: 1.375rem;
           border-radius: 50%;
           display: flex;
-          padding-left: 0rem;
-          padding-right: 0rem;
           justify-content: center;
-
           i {
-            width: 1rem;
-            height: 1rem;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            justify-content: center;
-            background-color: rgb(253, 253, 255);
-            color: rgb(17, 0, 255);
+            // width: 1rem;
+            // height: 1rem;
+            // display: flex;
+            // align-self: center;
+            // align-items: center;
+            // justify-content: center;
+            // background-color: rgb(253, 253, 255);
+            // color: rgb(17, 0, 255);
           }
         }
         &:last-of-type {
-          margin-right: 0px;
+          margin-right: 0rem;
         }
       }
       .left_date {
-        margin-right: 1rem;
-        width: 11rem;
+        width: 9.4375rem;
+        font-size: 12px;
+        font-weight: 500;
+        
+        p{
+          margin-left: 1rem;
+          color: #2c435a;
+        }
       }
       .left_fb {
-        margin-right: 1rem;
-        width: 9rem;
+        width: 7.375rem;
+        font-size: 12px;
+        font-weight: 500;      
+        
+        a {
+          color: #2c435a;
+          text-decoration: none;
+        }
       }
       .left_google {
-        width: 8rem;
+        font-size: 12px;
+        font-weight: 500;
+       
+        width: 6.375rem;
+
+        a {
+          color: #2c435a;
+          text-decoration: none;
+        }
         div {
-          border-radius: 50%;
           i {
             color: black;
           }
@@ -155,12 +192,19 @@ header {
         }
       }
       .right_filter {
+        width: 7.625rem;
+        height: 2.375rem;
+        background-color: #2c7df0;
         cursor: pointer;
-        width: 4rem;
+        color: #ffffff;
+        font-size: 14px;
+        margin-right: 0.75rem;
       }
       .right_delete {
+        height: 2.375rem;
+        width: 2.375rem;
         cursor: pointer;
-        width: 2rem;
+        border-radius: 1.1875rem;
       }
     }
   }
